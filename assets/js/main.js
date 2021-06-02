@@ -288,6 +288,52 @@ $(function() {
         }]
     });
     /*------------------------------
+              Causes Slider
+    -----------------------------------*/
+    $('.journal-wrapper-slider').slick({
+        infinite: true,
+        slidesToShow: 5,
+        arrows: true,
+        slidesToScroll: 3,
+        prevArrow: '<span class="prev"><i class="fa fa-angle-left"></i></span>',
+        nextArrow: '<span class="next"><i class="fa fa-angle-right"></i></span>',
+        loop: true,
+        speed: 800,
+        autoplay: true,
+        cssEase: 'linear',
+        dots: false,
+        responsive: [{
+            breakpoint: 1200,
+            Settings: {
+                slidesToShow: 5,
+                slidesToScroll: 3
+            }
+        }, {
+            breakpoint: 992,
+            Settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2
+            }
+        }, {
+            breakpoint: 767,
+            Settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        }, {
+            breakpoint: 479,
+            Settings: {
+                slidesToShow: 2,
+            }
+        }, {
+            breakpoint: 400,
+            Settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        }]
+    });
+    /*------------------------------
             Event Slider
     -----------------------------------*/
     $('.event-wrapper-slider').slick({
