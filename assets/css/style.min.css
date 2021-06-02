@@ -168,6 +168,10 @@ label {
     padding-right: 25px;
     padding-bottom: 25px;
 }
+.mtb-10px {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .mtb-60px {
     margin: 60px 0;
 }
@@ -294,7 +298,7 @@ label {
     padding-bottom: 70px;
 }
 .mb-30px {
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
 }
 .mb-20px {
     margin-bottom: 20px !important;
@@ -467,7 +471,7 @@ label {
     left: 50%;
     width: 60px;
     height: 2px;
-    background: #21828b;
+    background: #f99724;
     margin-left: -30px;
 }
 .section-title p {
@@ -2305,6 +2309,9 @@ body.offcanvas-open {
     position: relative;
     display: block;
 }
+/*.left-sidebar .category-post.text-theam-color3 li a {
+    color: #f69323;
+}*/
 .left-sidebar .category-post li a:before {
     position: absolute;
     top: 50%;
@@ -2520,13 +2527,28 @@ body.offcanvas-open {
     line-height: 28px;
 }
 .single-post-content p.quate-speech {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
     padding: 10px 15px;
     font-size: 18px;
     line-height: 30px;
     font-style: italic;
     border-left: 3px solid #21828b;
+}
+.single-post-content .quate-speech {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 30px;
+    border-left: 3px solid #f99724;
+}
+
+.single-post-content .quate-speech h5{
+    font-size: 15px;
+}
+.single-post-content .quate-speech span{
+    font-size: 14px;
 }
 @media only screen and (max-width: 767px) {
     .single-post-content p.quate-speech {
