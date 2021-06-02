@@ -154,7 +154,7 @@ path
 
 .team .member .member-info {
   padding-left: 30px;
-  width: calc(100% - 180px);
+  width: calc(100% - 0px);
 }
 
 .team .member h4 {
@@ -417,5 +417,38 @@ position: absolute;
     border-radius: .25rem;
     padding: 5px 15px;
     background: #21828b;
+    color: #ffffff;
+}
+.blog-post-content-inner h5.blog-title {
+    font-size: 14px;
+}
+.journal-blog .blog-title{
+    position: relative;
+    display: inline-block;
+    padding: 3px 15px 3px 15px;
+    background: #21828b;
+    color: #ffffff;
+}
+.journal-blog .blog-title:before{
+    position: absolute;
+    content: "";
+    /*height: 100%;
+    width: 5px;*/
+     left: 0px;
+    top: 100%;
+    border-width: 5px 5px;
+    border-style: solid;
+    border-color: #fba844  #fba844 transparent transparent;
+}
+.journal-blog .blog-title:after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    border-style: solid;
+    border-width: 5px 5px;
+    border-color: #fba844 transparent transparent #fba844;
+}
+.journal-blog .blog-title a, .journal-blog .blog-title a:hover{
     color: #ffffff;
 }
