@@ -91,6 +91,10 @@ path
 .text-theam-color2{
     color: #62b0dc;
 }
+
+.text-theam-color3{
+    color: #f69323;
+}
 .font-size-25{
     font-size: 25px;
 }
@@ -296,4 +300,61 @@ position: absolute;
     color: #fff;
     background-color: #f79425;
     border-color: #f79425;
+}
+.journal-wrapper .inner-image img {
+    transition: all 0.3s linear;
+}
+.journal-wrapper .journal-content {
+    padding: 25px 0 0 0;
+}
+.journal-wrapper .journal-content .journal-link:hover {
+    color: #21828b;
+}
+.journal-wrapper .journal-content .journal-text {
+    margin: 15px 0 0;
+}
+.journal-wrapper .journal-content .journal-donation {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.journal-wrapper .journal-content .journal-donation .donate-btn {
+    font-weight: 500;
+}
+.journal-wrapper .journal-content .journal-donation .donate-btn i {
+    margin-right: 5px;
+}
+.journal-wrapper .journal-content .journal-donation .donate-btn:hover {
+    color: #21828b;
+}
+.journal-wrapper .journal-content .journal-donation .donation-amount {
+    font-weight: 700;
+}
+.journal-wrapper:hover .inner-image img {
+    transition: all 0.3s linear;
+    transform: scale(1.035) rotate(0.05deg);
+}
+.journal-wrapper .progress {
+    height: 6px;
+    margin-top: 10px;
+}
+.journal-wrapper .progress .progress-bar {
+    background: #21828b;
+}
+.journal-wrapper.wrapper-style-2 {
+    border: 1px solid #e9e9e9;
+    transition: all 0.3s linear;
+}
+.journal-wrapper.wrapper-style-2 .journal-content {
+    text-align: center;
+    padding: 25px 25px 30px 25px;
+}
+.journal-wrapper.wrapper-style-2:hover {
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+    border-color: none;
+}
+.journal-wrapper-slider-item {
+    padding: 0 15px;
+}
+.journal-wrapper .journal-content .journal-text {
+    line-height: 28px;
 }
