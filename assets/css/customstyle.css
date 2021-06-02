@@ -247,7 +247,7 @@ path
     
 }
 .bg-right-sidebar-color{
-    background: #fdfcfc;
+    background: #ffffff;
 }
 .category-post li a>span{
     padding-right: 20px;
@@ -357,4 +357,9 @@ position: absolute;
 }
 .journal-wrapper .journal-content .journal-text {
     line-height: 28px;
+}
+.review-img img{
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
 }

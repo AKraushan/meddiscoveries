@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
-    font-family: Roboto, sans-serif;
-    font-size: 15px;
+    font-family: "Source Sans Pro",Arial;
+    font-size: 14px;
     font-style: normal;
     position: relative;
     visibility: visible;
@@ -2501,9 +2501,9 @@ body.offcanvas-open {
 .blog-post-content-inner .blog-athor-date .blog-date:hover {
     color: #21828b;
 }
-.blog-post-content-inner p {
+/*.blog-post-content-inner p {
     line-height: 20px;
-}
+}*/
 .blog-post-content-inner .read-more-btn {
     font-size: 14px;
     text-transform: capitalize;
@@ -2670,7 +2670,7 @@ body.offcanvas-open {
     border: 1px solid #e6e6e6;
 }
 .blog-comment-form .single-form textarea {
-    height: 180px;
+    height: 65px;
     margin-bottom: 20px;
     border: 1px solid #e6e6e6;
 }
