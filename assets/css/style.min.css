@@ -222,6 +222,11 @@ label {
 .pt-2px{
     padding-top: 2px;
 }
+.plr-12px{
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
 .line-height-20px{
     line-height: 20px !important;
 }
@@ -333,9 +338,9 @@ label {
 .bg-blue-light {
     background-color: #146cda;
 }
-.border-top {
+/*.border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
-}
+}*/
 .bg-white {
     background-color: #fff;
 }
@@ -2334,7 +2339,7 @@ body.offcanvas-open {
 }
 .left-sidebar .recent-post-widget .recent-single-post .thumb-side img {
     width: 90px;
-    height: 90px;
+    /*height: 90px;*/
     object-fit: cover;
     object-position: center;
 }
