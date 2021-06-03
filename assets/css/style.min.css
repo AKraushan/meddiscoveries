@@ -948,7 +948,7 @@ label {
 }
 .slider-content-1 .title {
     text-transform: capitalize;
-    font-size: 60px;
+    font-size: 40px;
     margin-bottom: 20px;
     color: #fff;
 }
@@ -1598,8 +1598,8 @@ body.offcanvas-open {
 .offcanvas .inner .top-header-mobile {
     display: inline-block;
     width: 100%;
-    text-align: center;
-    padding: 0 0 20px 0;
+    text-align: left;
+    padding: 0 0 10px 0;
 }
 .offcanvas .inner .top-header-mobile .contact-link {
     line-height: 1;
@@ -3427,7 +3427,7 @@ body.offcanvas-open {
 }
 .feature-wrapper.feature-wrapper-2 {
     text-align: center;
-    padding: 0 25px;
+    padding: 15px 25px;
     transition: all 0.3s linear;
     display: block;
     grid-template-columns: 100%;
