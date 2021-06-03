@@ -423,6 +423,7 @@ position: absolute;
 }
 .blog-post-content-inner h5.blog-title {
     font-size: 14px;
+    line-height: 20px;
 }
 .journal-blog .blog-title{
     position: relative;
