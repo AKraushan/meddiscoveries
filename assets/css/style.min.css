@@ -2491,7 +2491,7 @@ body.offcanvas-open {
 .blog-post-content-inner .blog-athor-date .blog-athor:hover {
     color: #21828b;
 }
-.blog-post-content-inner .blog-athor-date .blog-athor:before {
+/*.blog-post-content-inner .blog-athor-date .blog-athor:before {
     position: absolute;
     top: 50%;
     left: auto;
@@ -2500,7 +2500,7 @@ body.offcanvas-open {
     width: 5px;
     height: 1px;
     content: "";
-}
+}*/
 .blog-post-content-inner .blog-athor-date .blog-date {
     color: #454545;
 }
