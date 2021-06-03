@@ -428,6 +428,7 @@ position: absolute;
     padding: 3px 15px 3px 15px;
     background: #21828b;
     color: #ffffff;
+    line-height: 25px;
 }
 .journal-blog .blog-title:before{
     position: absolute;
