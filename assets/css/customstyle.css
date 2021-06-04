@@ -378,33 +378,7 @@ position: absolute;
      /*align-items: center; */
     line-height: 24px;
 }
-.journal-card .publiser a{
-    background: #21828b;
-   display: inline-block;
-    color: #ffffff;
-    padding-left: 15px;
-    position: relative;
-    padding-right: 30px;
-}
 
-.journal-card .publiser a:before{
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 5px;
-    background: #f7a444;
-    left: 0;
-}
-.journal-card .publiser a:after {
-    content: "";
-    position: absolute;
-    left: auto;
-    right: -1px;
-    top: 0px;
-    border-width: 12px 10px;
-    border-style: solid;
-    border-color: transparent #ffffff transparent transparent;
-}
 .header-logo img{
     max-height: 40px;
 }
@@ -425,15 +399,16 @@ position: absolute;
     font-size: 14px;
     line-height: 20px;
 }
-.journal-blog .blog-title{
+.title-style-1 .title{
     position: relative;
     display: inline-block;
     padding:5px 15px 5px 15px;
     background: #21828b;
     color: #ffffff;
     line-height: 25px;
+    font-size: 25px;
 }
-.journal-blog .blog-title:before{
+.title-style-1 .title:before{
     position: absolute;
     content: "";
     /*height: 100%;
@@ -444,7 +419,7 @@ position: absolute;
     border-style: solid;
     border-color: #fba844  #fba844 transparent transparent;
 }
-.journal-blog .blog-title:after {
+.title-style-1 .title:after {
     content: "";
     position: absolute;
     right: 0px;
@@ -453,6 +428,57 @@ position: absolute;
     border-width: 5px 5px;
     border-color: #fba844 transparent transparent #fba844;
 }
-.journal-blog .blog-title a, .journal-blog .blog-title a:hover{
+.title-style-2 .title{
+    background: #21828b;
+   display: inline-block;
+    color: #ffffff;
+    padding-left: 15px;
+    position: relative;
+    padding-right: 30px;
+}
+
+.title-style-2 .title:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 5px;
+    background: #f7a444;
+    left: 0;
+}
+.title-style-2 .title:after {
+    content: "";
+    position: absolute;
+    left: auto;
+    right: -1px;
+    top: 0px;
+    border-width: 12px 10px;
+    border-style: solid;
+    border-color: transparent #ffffff transparent transparent;
+}
+.title-style-1 .title a, .title-style-1 .title a:hover{
     color: #ffffff;
 }
+.h5{
+    font-weight: 700;
+    color: #1b1b1b;
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 20px;
+}
+a:hover .h5{
+    color: #024dbc;
+}
+.blog-heading{
+    text-transform: capitalize;
+}
+.indexing-logo{
+    max-width: 100px;
+}
+.team.editor .pic{
+    max-width: 80px;
+}
+.team.editor .member span{
+    color: #bdbdbd;
+}
+.team.editor .member span::after{
+    display: none;
+    

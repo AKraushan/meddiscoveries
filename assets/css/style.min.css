@@ -52,7 +52,7 @@ textarea {
     width: 100%;
     padding-left: 10px;
     height: 35px;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 textarea {
     padding-top: 10px;
@@ -462,7 +462,7 @@ label {
 }
 .section-title .title {
     position: relative;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin: 0;
     display: inline-block;
     vertical-align: top;
@@ -1993,7 +1993,7 @@ body.offcanvas-open {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 10px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 @media only screen and (max-width: 767px) {
     .breadcrumb-area .breadcrumb-content h2 {
@@ -2295,9 +2295,9 @@ body.offcanvas-open {
     left: auto;
     right: 0;
     font-size: 20px;
-    line-height: 45px;
+    line-height: 30px;
     text-align: center;
-    border-radius: 0 5px 5px 0;
+    /*border-radius: 0 5px 5px 0;*/
     background-color: #21828b;
     color: #fff;
     padding: 0;
@@ -2547,7 +2547,7 @@ body.offcanvas-open {
     padding: 10px 15px;
     font-size: 18px;
     line-height: 30px;
-    border-left: 3px solid #f99724;
+    border-left: 5px solid #f99724 !important;
 }
 
 .single-post-content .quate-speech h5{
