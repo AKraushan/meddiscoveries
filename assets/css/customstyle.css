@@ -251,17 +251,18 @@ path
 .bg-right-sidebar-color{
     background: #ffffff;
 }
-.category-post li a>span{
+/*.category-post li a>span{
     padding-right: 20px;
     line-height: 1;
     position: relative;
     display: inline-block;
     background: #fdfcfc;
     z-index: 2;
-}
+}*/
 .image-widget .banner-wrapper.overflow-visible{
     overflow: visible;
 }
+
 .image-style{
     overflow: visible;
     position: relative;

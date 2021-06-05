@@ -2318,7 +2318,7 @@ body.offcanvas-open {
 /*.left-sidebar .category-post.text-theam-color3 li a {
     color: #f69323;
 }*/
-.left-sidebar .category-post li a:before {
+/*.left-sidebar .category-post li a:before {
     position: absolute;
     top: 50%;
     left: 0;
@@ -2328,10 +2328,14 @@ body.offcanvas-open {
     content: "";
     background: #ebebeb;
     height: 1px;
+}*/
+.left-sidebar .category-post li a {
+    transition: all 0s linear;
 }
 .left-sidebar .category-post li a:hover {
-    color: #21828b;
+    color: #fba844  ;
 }
+
 .left-sidebar .category-post li:last-child {
     margin: 0;
 }
