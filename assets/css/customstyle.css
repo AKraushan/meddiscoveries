@@ -471,8 +471,14 @@ a:hover .h5{
 .blog-heading{
     text-transform: capitalize;
 }
+.sidebar-widget.indexing .thumb-side {
+    width: 110px;
+    min-height: 70px;
+    text-align: center;
+}
 .indexing-logo{
     max-width: 100px;
+    max-height: 70px;
 }
 .team.editor .pic{
     max-width: 80px;
@@ -482,4 +488,28 @@ a:hover .h5{
 }
 .team.editor .member span::after{
     display: none;
-    
+}
+
+.search-journal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    min-width: 300px;
+    max-width: 100%;
+}
+.journal-breadcrumb .breadcrumb-content:not(.search-journal){
+    border-left: 5px solid #fba844;
+    padding-left: 10px;
+}
+@media (max-width: 767px) {
+    .search-journal{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(0% , 0%);
+    min-width: 300px;
+    max-width: 100%;
+    margin-top: 40px;
+} 
+}

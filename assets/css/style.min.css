@@ -4,12 +4,8 @@
   font-family: sansation;
   src: url(sansation_light.woff);
 }
-
-@font-face {
-  font-family: bookman-old-style-std-regular;
-  src: url('../font/bookman-old-style-std-regular.otf');
+{url('../font/bookman-old-style-std-regular.otf');
 }
-
 body {
     font-family: "Source Sans Pro",Arial;
     font-size: 14px;
@@ -28,10 +24,10 @@ h3,
 h4,
 h5,
 h6 {
-    /*font-family: "Source Sans Pro",Arial;*/
+    font-family: "Source Sans Pro",Arial;
     font-weight: 700;
     color: #1b1b1b;
-    font-family: bookman-old-style-std-regular;
+    font-family: 'Libre Franklin', sans-serif ;
 }
 .h1,
 .h2,
